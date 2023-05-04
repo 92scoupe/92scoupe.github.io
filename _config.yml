@@ -22,7 +22,7 @@ subtitle                 : "항상 최고의 품질로 모시겠습니다."
 name                     : "엑셀"
 description              : "항상 최고의 품질로 모시겠습니다."
 url                      : "https://92scoupe.github.io"
-baseurl                  : "/blog" # the subpath of your site
+baseurl                  : # the subpath of your site
 repository               : "92scoupe/92scoupe.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
