@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default"
 locale                   : "ko-KR"
 title                    : "제5공장"
 title_separator          : "-"
-subtitle                 : "항상 최고의 품질로 모시겠습니다."
+subtitle                 : "제5공장"
 name                     : "엑셀"
 description              : "항상 최고의 품질로 모시겠습니다."
 url                      : "https://92scoupe.github.io"
@@ -220,7 +220,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -288,5 +288,17 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
+      share: true
+      related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
       share: true
       related: true
